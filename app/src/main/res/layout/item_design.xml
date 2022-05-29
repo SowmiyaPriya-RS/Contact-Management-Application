@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardview_id"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="170dp"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:cardview="http://schemas.android.com/tools"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:background="#2d2d2d"
+            android:layout_marginTop="5dp"
+            android:id="@+id/imageview1"
+            android:src="@drawable/psglogo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="sowmiya"
+            android:textColor="#000000"
+            android:id="@+id/textview"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="BE"
+            android:id="@+id/textview1"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Assistant Professor"
+            android:id="@+id/textview2"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="CSE"
+            android:id="@+id/textview3"
+            android:textSize="12sp"
+            android:layout_below="@+id/textview"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="----------------------------------------------------"
+            android:id="@+id/textview4"
+            android:textSize="12sp"
+            android:layout_below="@+id/textview"
+            android:layout_marginTop="3dp"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

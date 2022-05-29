@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PSG ITECH</string>
+    <string-array name="dept">
+        <item>DEPARTMENT</item>
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>MECH</item>
+        <item>CIVIL</item>
+    </string-array>
+    <string-array name="cty">
+        <item>CATEGORY</item>
+        <item>TECHNICAL</item>
+        <item>NON-TECHNICAL</item>
+
+    </string-array>
+</resources>

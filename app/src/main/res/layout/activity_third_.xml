@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Third_Activity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="175dp"
+                android:background="#2d2d2d"
+                android:id="@+id/txtimage"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/txtname"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:textColor="#2d2d2d"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtquali"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="qualification"
+                android:textSize="18sp"
+                android:textColor="#2d2d2d"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/txtdesi"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="designation"
+                android:textSize="18sp"
+                android:textColor="#2d2d2d"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/txtdept"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="#2d2d2d"
+                android:text="department"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <ImageButton
+                android:id="@+id/whats"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/whatsapp" />
+
+            <ImageButton
+                android:id="@+id/bt_call"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/bg_round"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/k_call" />
+
+            <ImageButton
+                android:id="@+id/sms"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/bg_round"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/sms" />
+
+            <ImageButton
+                android:id="@+id/mail"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/bg_round"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/mail" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
